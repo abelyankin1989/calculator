@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+
+#root {
+  height: 100%;
+}
+
+.component-button-box {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+}
+
+.component-button-box > div {
+  width: 100%;
+  margin-bottom: 1px;
+  flex: 1 0 auto;
+  display: flex;
+}
+
+.component-app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+
+.component-button {
+  display: inline-flex;
+  width: 25%;
+  flex: 1 0 auto;
+}
+
+.component-button.wide {
+  width: 50%;
+}
+
+.component-button button {
+  background-color: #2e2727;
+  border: 0;
+  font-size: 4.5rem;
+  margin: 0 1px 0 0;
+  flex: 1 0 auto;
+  padding: 0;
+  color: white;
+}
+
+.component-button:last-child button {
+  margin-right: 0;
+}
+
+.component-button.orange button {
+  background-color: #f5923e;
+  color: white;
+}
+
+.component-display {
+  background-color: #c5c5ce;
+  color: rgb(34, 16, 16);
+  text-align: right;
+  font-weight: 200;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.component-display > div  input{
+  width: 97%;
+  margin-left: 0.7%;
+}
+
+
+.component-display > div input{
+  font-size: 4.5rem;
+  height: 80px;
+  margin-top: 30px;
+  width:100%;
+  padding: 0.7rem 1.2rem 0.1rem 0.5rem;
+}
